@@ -2,18 +2,21 @@ h1{
     text-align: center;
     color: blue;
 }
-ul{
+ul {
     list-style-type: none;
     color: #689898;
-    display: inline-block;
 }
 #time-learn{
     text-align: right;
-    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#information-class{
+    text-align: left;
 }
 div{
-    width: inherit;
     display: inline-block;
+    /*width: inherit;*/
 }
 body{
     width: 500px;
